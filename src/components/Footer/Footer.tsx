@@ -1,3 +1,18 @@
 import { FC } from 'react';
 
-export const Footer: FC = (): JSX.Element => <footer />;
+import { HOST, VERSION } from '@/constants';
+
+type FooterProps = {
+  host?: string;
+  version?: string;
+};
+
+export const Footer: FC<FooterProps> = ({
+  host = HOST,
+  version = VERSION
+}): JSX.Element => (
+  <footer>
+    <div>{host}</div>
+    <div>v{version}</div>
+  </footer>
+);
