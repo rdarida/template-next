@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 
-import { Head } from '@/components';
+import { Footer, Head } from '@/components';
 
 const HomePage: NextPage = (): JSX.Element => (
   <>
@@ -10,7 +10,7 @@ const HomePage: NextPage = (): JSX.Element => (
       <h1>H1</h1>
     </main>
 
-    <footer>Footer</footer>
+    <Footer />
   </>
 );
 
