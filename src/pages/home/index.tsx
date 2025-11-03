@@ -1,17 +1,13 @@
 import { NextPage } from 'next';
 
-import { Footer, Head } from '@/components';
+import { BaseLayout } from '@/layouts';
 
 const HomePage: NextPage = (): JSX.Element => (
-  <>
-    <Head />
-
+  <BaseLayout>
     <main>
       <h1>H1</h1>
     </main>
-
-    <Footer />
-  </>
+  </BaseLayout>
 );
 
 export default HomePage;
