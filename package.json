@@ -1,0 +1,14 @@
+{
+  "name": "template-next",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Róbert Darida",
+  "homepage": "https://github.com/rdarida/template-next#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdarida/template-next.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdarida/template-next/issues"
+  }
+}

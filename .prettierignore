@@ -1,0 +1,10 @@
+.next
+coverage
+dist
+docs
+node_modules
+
+package-lock.json
+yarn.lock
+
+*.md
