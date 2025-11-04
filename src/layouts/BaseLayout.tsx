@@ -1,14 +1,17 @@
 import { FC, ReactNode } from 'react';
 
-import { Footer, Head } from '@/components';
+import { Footer, Head, HeadProps } from '@/components';
 
 type BaseLayoutProps = {
   children?: ReactNode;
-};
+} & HeadProps;
 
-export const BaseLayout: FC<BaseLayoutProps> = ({ children }): JSX.Element => (
+export const BaseLayout: FC<BaseLayoutProps> = ({
+  children,
+  ...headProps
+}): JSX.Element => (
   <>
-    <Head />
+    <Head {...headProps} />
     {children}
     <Footer />
   </>
