@@ -6,7 +6,7 @@ import '@/styles/index.scss';
 
 const App: FC<AppProps> = ({ Component, pageProps }): JSX.Element => {
   useEffect((): void => {
-    require('bootstrap');
+    import('bootstrap');
   }, []);
 
   return <Component {...pageProps} />;
