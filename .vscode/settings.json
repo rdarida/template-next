@@ -12,6 +12,7 @@
     ".editorconfig": true,
     ".prettierignore": true,
     ".prettierrc": true,
+    "eslint.config.mjs": true,
     "next-env.d.ts": true,
     "package-lock.json": true,
     "tsconfig.json": true
