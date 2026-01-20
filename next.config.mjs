@@ -1,5 +1,5 @@
-import { resolve } from 'node:path';
 import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
 const packageJsonPath = resolve(process.cwd(), 'package.json');
 const packageJson = JSON.parse(readFileSync(packageJsonPath, 'utf-8'));
@@ -11,7 +11,8 @@ const nextConfig = {
   },
   reactStrictMode: true,
   redirects: async () => [
-    { source: '/home', destination: '/', permanent: true }
+    { source: '/home', destination: '/', permanent: true },
+    { source: '/documents', destination: '/', permanent: true }
   ],
   rewrites: async () => [{ source: '/', destination: '/home' }]
 };
