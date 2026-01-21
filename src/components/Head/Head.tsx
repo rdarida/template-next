@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { default as NextHead } from 'next/head';
+import NextHead from 'next/head';
 
 import { DESCRIPTION, NAME } from '@/constants';
 
