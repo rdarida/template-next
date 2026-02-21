@@ -2,4 +2,5 @@
 
 ## Resources
 
+- [https://github.com/leandroercoli/SaasterKit](https://github.com/leandroercoli/SaasterKit)
 - [https://github.com/Skolaczk/next-starter/](https://github.com/Skolaczk/next-starter/)
