@@ -12,3 +12,5 @@
 - [How to Deploy Next.js Apps to Github Pages](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
 - [How To Write E2E Tests for Next.js Application Using Playwright](https://medium.com/canopas/how-to-write-e2e-tests-for-next-js-application-using-playwright-1c76bb011426)
 - [6 ways to turn your browser into super-debug-hero (ft. node.js + next.js!)](https://dev.to/middleware/6-ways-to-turn-your-browser-into-super-debug-hero-ft-nodejs-nextjs-36c3)
+- [How to setup auto generated sitemap in nextjs
+](https://www.devphobia.com/posts/how-to-setup-auto-generate-sitemap-in-nextjs)
